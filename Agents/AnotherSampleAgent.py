@@ -1,6 +1,6 @@
 from prison import Player
 
-class SampleAgent(Player):
+class NiceAgent(Player):
     """
     This is an example player
     """
@@ -11,5 +11,4 @@ class SampleAgent(Player):
     def agentName(self):
         return "Nice Player"
     def play(self, myHistory, oppHistory1, oppHistory2):
-        return 0;
-		
+        return 0
