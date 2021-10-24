@@ -19,6 +19,9 @@ Created on Feb 9, 2017
 import random
 import math
 #import runTournament as island
+import Ditto
+# import MadAgent
+
 
 PAYOFF = [[[6, 3], [3, 0]], [[8, 5], [5, 2]]]
 
@@ -106,7 +109,7 @@ class RandomPlayer(Player):
     """
 
     def studentID(self):
-        return "41"
+        return "42"
 
     def agentName(self):
         return "Random Player"
@@ -120,17 +123,17 @@ if __name__ == "__main__":
     Replace one or two of these with your player!
     """
     from runTournament import scoreGame
-    
-    p1 = MeanPlayer()
+
+    NROUNDS = 100
+
+    p1 = Ditto.DittoAgent()
     p2 = MeanPlayer()
-    p3 = RandomPlayer()
-    NLOOP = 200
-    NROUNDS = 200
-    res = []
-    [s1, s2, s3] = scoreGame(p1, p2, p3, NROUNDS)
+    p3 = NicePlayer()
+
+    s1, s2, s3 = scoreGame(p1, p2, p3, NROUNDS)
     print("========== 3PD Results ==========")
     print(p1.agentName(), " (", p1.studentID(), ") :", s1)
     print(p2.agentName(), " (", p2.studentID(), ") :", s2)
     print(p3.agentName(), " (", p3.studentID(), ") :", s3)
-    if p1.studentID() == "42" and p2.studentID() == "42" and p3.studentID() == "42":
+    if p1.studentID() == "42" and p2.studentID() == "42" and p3.studentID() == "43":
         raise AssertionError("DANGER WILL ROBINSON: Make sure you replace one or two of the players with your agent!")
