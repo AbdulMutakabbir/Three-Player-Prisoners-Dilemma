@@ -1,4 +1,4 @@
-from prison import Player
+from Agents.Player import Player
 from random import random
 
 

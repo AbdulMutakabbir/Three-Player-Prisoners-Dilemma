@@ -4,17 +4,14 @@ Created on Feb 24, 2017
 @author: Alan
 '''
 from prison import PAYOFF
-from prison import NicePlayer
-from prison import MeanPlayer
-from prison import RandomPlayer
 import random
 import math
 import time
 import sys
-# import numpy
 
-from SampleAgent_007 import JBond as Agent1
-from AnotherSampleAgent import SampleAgent
+from Agents.NiceAgent import NiceAgent as Agent1
+from Agents.MeanAgent import MeanAgent as Agent2
+from Agents.RandomAgent import RandomPlayer as Agent3
 
 NPLAYERS = 3
 
@@ -25,9 +22,10 @@ NPLAYERS = 3
 noiseFactor = 0.02  # Chance that a player will do the opposite action than they had intended.
 phoneBook = {
         0: Agent1(),
-        1: Agent1(),
-        2: SampleAgent(),
+        1: Agent2(),
+        2: Agent3(),
     }
+
 
 def playRound(player1, player2, player3, history1, history2, history3):
     """
