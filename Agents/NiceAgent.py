@@ -3,12 +3,11 @@ from prison import Player
 
 class NiceAgent(Player):
     """
-    This is an example player
+    This is an nice player
     """
-    #def __init__(self): # default constructor
         
     def studentID(self):
-        return "007"
+        return "0"
 
     def agentName(self):
         return "Nice Player"
