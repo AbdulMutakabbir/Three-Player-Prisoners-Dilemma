@@ -1,15 +1,16 @@
 from prison import Player
 
-class JBond(Player):
+
+class MeanAgent(Player):
     """
-    This is an example player
+    This is an mean player
     """
-    #def __init__(self): # default constructor
         
     def studentID(self):
-        return "007"
+        return "1"
+
     def agentName(self):
         return "Mean Player"
+
     def play(self, myHistory, oppHistory1, oppHistory2):
-        return 1;
-		
+        return 1
