@@ -11,7 +11,7 @@ import random
 import math
 import time
 import sys
-import numpy
+# import numpy
 
 from SampleAgent_007 import JBond as Agent1
 from AnotherSampleAgent import SampleAgent
