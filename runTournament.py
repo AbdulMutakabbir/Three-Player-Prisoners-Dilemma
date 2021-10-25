@@ -12,6 +12,7 @@ import sys
 from Agents.NiceAgent import NiceAgent as Agent1
 from Agents.MeanAgent import MeanAgent as Agent2
 from Agents.RandomAgent import RandomPlayer as Agent3
+from Agents.DittoAgent import DittoAgent as Agent4
 
 NPLAYERS = 3
 
@@ -24,6 +25,7 @@ phoneBook = {
         0: Agent1(),
         1: Agent2(),
         2: Agent3(),
+        3: Agent4(),
     }
 
 
