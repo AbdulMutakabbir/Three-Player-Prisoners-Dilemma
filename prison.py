@@ -60,6 +60,6 @@ if __name__ == "__main__":
     # # print the CSV for NRounds
     # result_csv = ""
     # for i in range(NROUNDS):
-    #     result = runTournament(4)
-    #     result_csv += str(result[0]) + "," + str(result[1]) + "," + str(result[2]) + "," + str(result[3]) + ",\n"
+    #     result = runTournament(3)
+    #     result_csv += str(result[0]) + "," + str(result[1]) + "," + str(result[2]) + "," + ",\n"
     # print(result_csv)

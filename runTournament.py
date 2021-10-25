@@ -14,11 +14,7 @@ from Agents.MeanAgent import MeanAgent as Agent2
 from Agents.RandomAgent import RandomPlayer as Agent3
 from Agents.DittoAgent import DittoAgent as Agent4
 
-NPLAYERS = 3
-
-# RandomPlayer = __import__("RandomPlayer").RandomPlayer
-# NicePlayer = __import__("NicePlayer").NicePlayer
-# MeanPlayer = __import__("MeanPlayer").MeanPlayer
+NPLAYERS = 4
 
 noiseFactor = 0.02  # Chance that a player will do the opposite action than they had intended.
 phoneBook = {
