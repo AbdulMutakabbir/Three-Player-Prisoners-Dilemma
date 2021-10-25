@@ -17,9 +17,9 @@ when competing with others in the Game.
 
 ### Literature Review
 The below mention strategies were tested to find the best strategy:
- * [Nice Agent (Always Co-operates)]()
- * [Mean Agent (Always Defers)]()
- * [Random Agent (Co-operates and Defers Evenly)]()
+ * [Nice Agent (Always Co-operates)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/NiceAgent.py)
+ * [Mean Agent (Always Defers)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/MeanAgent.py)
+ * [Random Agent (Co-operates and Defers Evenly)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/RandomAgent.py)
  * Randomly Nicer Agent (Mostly Co-operates but also Defers)
  * Randomly Meaner Agent (Mostly Defers but also Co-operates)
  * Co-ordinated Agents (These agent only Co-operate when played against an agent of the Same type)
@@ -63,8 +63,9 @@ Tire 4 the agents has less motivation to co-operate now since its the end of gam
 
 
 ### Agent Design
-Based on the above mentioned methodology [Ditto Agent]() was developed that has the following 
-co-operation strategy.
+Based on the above mentioned methodology 
+[Ditto Agent](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/DittoAgent.py) 
+was developed that has the following co-operation strategy.
 
 ![Agent Flowchart](https://raw.githubusercontent.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/main/assets/charts/Ditto_FlowChart.svg)
 
@@ -73,11 +74,13 @@ The round number are arbitrarily fixed but should be changes based on the number
 
 ### Performance
 Below you are given the "Scatter Plot" and the "Box Chart" of 200 times Ditto Agent competed with the 
-above mentioned agents in [Literature Review]().
+above mentioned agents in 
+[Literature Review](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma#literature-review).
 
 ![Scatter Plot](https://raw.githubusercontent.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/main/assets/charts/Tournment_ScatterPlot.png)
 ![Box Chart](https://raw.githubusercontent.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/main/assets/charts/Tournment_BoxPlot.png)
 
 
 ### Results 
-As seen in the [Performance Section]() Ditto Agent perform as good as the best agent (Mean Agent).
+As seen in the [Performance Section](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma#performance) 
+Ditto Agent perform as good as the best agent (Mean Agent).
