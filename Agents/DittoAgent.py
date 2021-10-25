@@ -8,7 +8,7 @@ class DittoAgent(Player):
     """
 
     def studentID(self):
-        return "101206784"
+        return "7"
 
     def agentName(self):
         return "DittoAgent"
