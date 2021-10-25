@@ -41,7 +41,7 @@ if __name__ == "__main__":
     """
     Replace one or two of these with your player!
     """
-    from runTournament import scoreGame
+    from runTournament import scoreGame, runTournament
 
     NROUNDS = 100
 
@@ -56,3 +56,10 @@ if __name__ == "__main__":
     print(p3.agentName(), " (", p3.studentID(), ") :", s3)
     if p1.studentID() == "42" and p2.studentID() == "42" and p3.studentID() == "42":
         raise AssertionError("DANGER WILL ROBINSON: Make sure you replace one or two of the players with your agent!")
+
+    # # print the CSV for NRounds
+    # result_csv = ""
+    # for i in range(NROUNDS):
+    #     result = runTournament(4)
+    #     result_csv += str(result[0]) + "," + str(result[1]) + "," + str(result[2]) + "," + str(result[3]) + ",\n"
+    # print(result_csv)
