@@ -50,6 +50,7 @@ structure wherein
  
 > Defer Rate: The amount of times the opponent agent defers
  
+![Agent Tiers](https://raw.githubusercontent.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/main/assets/charts/Agent%20Tiers.png)
 Tier 1 is to copy the handshaking messages given by Co-ordinated Agents and to become a part of 
 them.
 
