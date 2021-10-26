@@ -68,7 +68,7 @@ Based on the above mentioned methodology
 [Ditto Agent](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/DittoAgent.py) 
 was developed and it has the following Co-operation strategy.
 
-![Agent Flowchart](https://raw.githubusercontent.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/main/assets/charts/Ditto_FlowChart.svg)
+![Agent Flowchart](https://raw.githubusercontent.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/main/assets/charts/Ditto_FlowChart.png)
 
 The round numbers are arbitrarily fixed and should be changed based on the number of rounds.
 
