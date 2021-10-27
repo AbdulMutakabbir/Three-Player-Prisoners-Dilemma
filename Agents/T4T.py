@@ -1,7 +1,7 @@
 from Agents.Player import Player
 
 
-class DittoAgent(Player):
+class T4TAgent(Player):
     """
     Agent Applies Tit-for-Tat Strategy
     """
