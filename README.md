@@ -20,8 +20,8 @@ The following strategies were tested to arrive at the best strategy:
  * [Nice Agent (Always Co-operates)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/NiceAgent.py)
  * [Mean Agent (Always Defers)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/MeanAgent.py)
  * [Random Agent (Co-operates and Defers Evenly)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/RandomAgent.py)
- * Randomly Nicer Agent (Mostly Co-operates but also Defers)
- * Randomly Meaner Agent (Mostly Defers but also Co-operates)
+ * [Randomly Nicer Agent (Mostly Co-operates but also Defers)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/VariableRandomAgent.py)
+ * [Randomly Meaner Agent (Mostly Defers but also Co-operates)](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma/blob/main/Agents/VariableRandomAgent.py)
  * Co-ordinated Agents (These agents only Co-operate when played against an agent of the same type)
  
 The Nice Agent will perform last when competing with agents of the other type since they will Defer

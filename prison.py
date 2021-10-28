@@ -41,25 +41,25 @@ if __name__ == "__main__":
     """
     Replace one or two of these with your player!
     """
-    from runTournament import scoreGame, runTournament
+    from runTournament import scoreGame, runTournament, NPLAYERS
 
-    NROUNDS = 100
+    NROUNDS = 200
+    #
+    # p1 = DittoAgent()
+    # p2 = MeanAgent()
+    # p3 = NiceAgent()
+    #
+    # s1, s2, s3 = scoreGame(p1, p2, p3, NROUNDS)
+    # print("========== 3PD Results ==========")
+    # print(p1.agentName(), " (", p1.studentID(), ") :", s1)
+    # print(p2.agentName(), " (", p2.studentID(), ") :", s2)
+    # print(p3.agentName(), " (", p3.studentID(), ") :", s3)
+    # if p1.studentID() == "42" and p2.studentID() == "42" and p3.studentID() == "42":
+    #     raise AssertionError("DANGER WILL ROBINSON: Make sure you replace one or two of the players with your agent!")
 
-    p1 = DittoAgent()
-    p2 = MeanAgent()
-    p3 = NiceAgent()
-
-    s1, s2, s3 = scoreGame(p1, p2, p3, NROUNDS)
-    print("========== 3PD Results ==========")
-    print(p1.agentName(), " (", p1.studentID(), ") :", s1)
-    print(p2.agentName(), " (", p2.studentID(), ") :", s2)
-    print(p3.agentName(), " (", p3.studentID(), ") :", s3)
-    if p1.studentID() == "42" and p2.studentID() == "42" and p3.studentID() == "42":
-        raise AssertionError("DANGER WILL ROBINSON: Make sure you replace one or two of the players with your agent!")
-
-    # # print the CSV for NRounds
-    # result_csv = ""
-    # for i in range(NROUNDS):
-    #     result = runTournament(3)
-    #     result_csv += str(result[0]) + "," + str(result[1]) + "," + str(result[2]) + "," + ",\n"
-    # print(result_csv)
+    # print the CSV for NRounds
+    result_csv = ""
+    for i in range(NROUNDS):
+        result = runTournament(NPLAYERS)
+        result_csv += ','.join(map(str, result)) + "\n"
+    print(result_csv)

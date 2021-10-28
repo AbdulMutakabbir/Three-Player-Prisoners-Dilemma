@@ -13,16 +13,22 @@ from Agents.NiceAgent import NiceAgent as Agent1
 from Agents.MeanAgent import MeanAgent as Agent2
 from Agents.RandomAgent import RandomPlayer as Agent3
 from Agents.DittoAgent import DittoAgent as Agent4
+from Agents.T4TAgent import T4TAgent as Agent5
+from Agents.VariableRandomAgent import NiceRandomPlayer as Agent6
+from Agents.VariableRandomAgent import MeanRandomPlayer as Agent7
 
-NPLAYERS = 4
+NPLAYERS = 7
 
 noiseFactor = 0.02  # Chance that a player will do the opposite action than they had intended.
 phoneBook = {
-        0: Agent1(),
-        1: Agent2(),
-        2: Agent3(),
-        3: Agent4(),
-    }
+    0: Agent1(),
+    1: Agent2(),
+    2: Agent3(),
+    3: Agent4(),
+    4: Agent5(),
+    5: Agent6(),
+    6: Agent7(),
+}
 
 
 def playRound(player1, player2, player3, history1, history2, history3):
