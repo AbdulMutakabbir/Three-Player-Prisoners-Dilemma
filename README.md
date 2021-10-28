@@ -84,4 +84,4 @@ above mentioned agents is given in the following:
 
 ### Results 
 As seen in the [Performance Section](https://github.com/AbdulMutakabbir/Three-Player-Prisoners-Dilemma#performance) 
-Ditto Agent performs as good as the best agent (Mean Agent).
+Ditto Agent performs better than all other agents.
